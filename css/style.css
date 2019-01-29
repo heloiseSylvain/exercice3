@@ -75,6 +75,11 @@ body {
   background-color: salmon;
 }
 
+.sidebar{
+  background-color: paleturquoise;
+  color: #444;
+}
+
 .sidebar2 {
   background-color: mintcream;
   color: #444;
