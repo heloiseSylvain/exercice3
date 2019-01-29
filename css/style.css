@@ -63,20 +63,22 @@ body {
 	}
 
 .box {
-  background-color: #444;
+  background-color: gray;
   color: #fff;
   border-radius: 5px;
   padding: 10px;
   font-size: 150%; 
 }
 
-.header,
+.header {
+    background-color: salmon;
+}
 .footer {
-  background-color: salmon;
+    background-color: salmon;
 }
 
 .sidebar{
-  background-color: paleturquoise;
+  background-color: mintcream;
   color: #444;
 }
 
