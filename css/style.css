@@ -1,4 +1,6 @@
-
+html{
+    font-family: 'Montserrat', sans-serif;
+}
 .sidebar {
 		grid-area: sidebar;
 	}
@@ -78,10 +80,10 @@
 
 .sidebar{
   background-color: #ceffe8;
-  color: #444;
+  color: gray;
 }
 
 .sidebar2 {
   background-color: #ceffe8;
-  color: #444;
+  color: gray;
 }
