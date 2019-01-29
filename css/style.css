@@ -1,6 +1,3 @@
-body {
-  margin: 40px;
-}
 
 .sidebar {
 		grid-area: sidebar;
@@ -65,12 +62,14 @@ body {
 .box {
   background-color: gray;
   color: #fff;
+  height: 28vh;
   border-radius: 5px;
   padding: 10px;
   font-size: 150%; 
 }
 
 .header {
+    margin-top: 0;
     background-color: salmon;
 }
 .footer {
@@ -78,11 +77,11 @@ body {
 }
 
 .sidebar{
-  background-color: mintcream;
+  background-color: #ceffe8;
   color: #444;
 }
 
 .sidebar2 {
-  background-color: mintcream;
+  background-color: #ceffe8;
   color: #444;
 }
