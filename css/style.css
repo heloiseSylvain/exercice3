@@ -61,6 +61,10 @@ html{
 		}
 	}
 
+.icone {
+    color : #ceffe8;
+}
+
 .box {
   background-color: gray;
   color: #fff;
