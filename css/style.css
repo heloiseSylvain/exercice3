@@ -62,7 +62,7 @@ html{
 	}
 
 .icone {
-    color : #ceffe8;
+    color : white;
 }
 
 .box {
@@ -76,18 +76,18 @@ html{
 
 .header {
     margin-top: 0;
-    background-image: url("../image/plage.jfif");
+    background-image: url("../image/lavende.jfif");
 }
 .footer {
-    background-color: salmon;
+    background-color: #8e7a99;
 }
 
 .sidebar{
-  background-color: #ceffe8;
-  color: gray;
+  background-color: #ebc4ff;
+  color: white;
 }
 
 .sidebar2 {
-  background-color: #ceffe8;
-  color: gray;
+  background-color: #ebc4ff;
+  color: white;
 }
