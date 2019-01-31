@@ -1,68 +1,78 @@
-html{
-    font-family: 'Montserrat', sans-serif;
+html {
+  font-family: 'Montserrat', sans-serif;
 }
+
 .sidebar {
-		grid-area: sidebar;
-	}
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: sidebar;
+}
 
-	.sidebar2 {
-		grid-area: sidebar2;
-	}
+.sidebar2 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: sidebar2;
+}
 
-	.content {
-		grid-area: content;
-	}
+.content {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: content;
+}
 
-	.header {
-		grid-area: header;
-	}
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+}
 
-	.footer {
-		grid-area: footer;
-	}
+.footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
 
-	.wrapper {
-		background-color: #fff;
-		color: #444;
-	}
+.wrapper {
+  background-color: #fff;
+  color: #444;
+}
 
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1em;
+      grid-template-areas: "header"
+ "sidebar"
+ "content"
+ "sidebar2"
+ "footer";
+}
+
+@media only screen and (min-width: 500px) {
   .wrapper {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-areas:
-     "header"
-     "sidebar"
-     "content"
-     "sidebar2"
-     "footer"
+    -ms-grid-columns: 20% auto;
+        grid-template-columns: 20% auto;
+        grid-template-areas: "header   header"
+ "sidebar  content"
+ "sidebar2 sidebar2"
+ "footer   footer";
   }
+}
 
-	@media only screen and (min-width: 500px)  {
-	.wrapper {
-
-		grid-template-columns: 20% auto;
-		grid-template-areas:
-    "header   header"
-		"sidebar  content"
-		"sidebar2 sidebar2"
-		"footer   footer";
-	}
-	}
-
-	@media only screen and (min-width: 600px)   {
-		.wrapper {
-      grid-gap: 20px;
-			grid-template-columns: 120px auto 120px;
-			grid-template-areas:
-      "header  header  header"
-			"sidebar content sidebar2"
-			"footer  footer  footer";
-			max-width: 100vw;
-		}
-	}
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    grid-gap: 20px;
+    -ms-grid-columns: 120px auto 120px;
+        grid-template-columns: 120px auto 120px;
+        grid-template-areas: "header  header  header"
+ "sidebar content sidebar2"
+ "footer  footer  footer";
+    max-width: 100vw;
+  }
+}
 
 .icone {
-    color : white;
+  color: #ceffe8;
 }
 
 .box {
@@ -71,23 +81,130 @@ html{
   height: 28vh;
   border-radius: 5px;
   padding: 10px;
-  font-size: 150%; 
+  font-size: 150%;
 }
 
 .header {
-    margin-top: 0;
-    background-image: url("../image/lavende.jfif");
-}
-.footer {
-    background-color: #8e7a99;
+  margin-top: 0;
+  background-image: url("../image/plage.jfif");
 }
 
-.sidebar{
-  background-color: #ebc4ff;
-  color: white;
+.footer {
+  background-color: salmon;
+}
+
+.sidebar {
+  background-color: #ceffe8;
+  color: gray;
 }
 
 .sidebar2 {
-  background-color: #ebc4ff;
-  color: white;
+  background-color: #ceffe8;
+  color: gray;
 }
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: sidebar;
+}
+
+.sidebar2 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: sidebar2;
+}
+
+.content {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: content;
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+}
+
+.footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
+
+.wrapper {
+  background-color: #fff;
+  color: #444;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1em;
+      grid-template-areas: "header"
+ "sidebar"
+ "content"
+ "sidebar2"
+ "footer";
+}
+
+@media only screen and (min-width: 500px) {
+  .wrapper {
+    -ms-grid-columns: 20% auto;
+        grid-template-columns: 20% auto;
+        grid-template-areas: "header   header"
+ "sidebar  content"
+ "sidebar2 sidebar2"
+ "footer   footer";
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    grid-gap: 20px;
+    -ms-grid-columns: 120px auto 120px;
+        grid-template-columns: 120px auto 120px;
+        grid-template-areas: "header  header  header"
+ "sidebar content sidebar2"
+ "footer  footer  footer";
+    max-width: 100vw;
+  }
+}
+
+.icone {
+  color: #ceffe8;
+}
+
+.box {
+  background-color: gray;
+  color: #fff;
+  height: 28vh;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.header {
+  margin-top: 0;
+  background-image: url("../image/plage.jfif");
+}
+
+.footer {
+  background-color: salmon;
+}
+
+.sidebar {
+  background-color: #ceffe8;
+  color: gray;
+}
+
+.sidebar2 {
+  background-color: #ceffe8;
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */
