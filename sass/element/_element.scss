@@ -8,3 +8,10 @@ li:hover{
     color: salmon;
     cursor: pointer;
 }
+ul{
+    margin: 0;
+}
+nav{
+    background: rgba($color: white, $alpha: 0.5);
+    height: 5vh;
+}
