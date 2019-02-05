@@ -307,6 +307,7 @@ section {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
+    border-radius: 15px;
     /*Affichage du menu en rangée*/
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
